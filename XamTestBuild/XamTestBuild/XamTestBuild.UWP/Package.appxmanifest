@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="8f901443-e4ca-486f-9869-318c3ffa3fe9"
-    Publisher="CN=844605d6-b078-4314-afbd-adf8bf8e6efe"
+    Name="be1c51e9-2050-4393-acf5-69fe5dd3912f"
+    Publisher="CN=d8b0ac51-36ac-4d33-b82c-5281a52c19e6"
     Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="ec0cc741-fd3e-485c-81be-68815c480690" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>XamTestBuild.UWP</DisplayName>
-    <PublisherDisplayName>844605d6-b078-4314-afbd-adf8bf8e6efe</PublisherDisplayName>
+    <PublisherDisplayName>d8b0ac51-36ac-4d33-b82c-5281a52c19e6</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 

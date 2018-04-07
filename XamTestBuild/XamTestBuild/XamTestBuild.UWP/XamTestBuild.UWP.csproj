@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{1B573A9A-F461-46A0-9A54-1ABB116C7AE5}</ProjectGuid>
+    <ProjectGuid>{40D63C6D-9B6A-4DE9-86F7-0DAE506E1921}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>XamTestBuild.UWP</RootNamespace>
@@ -136,7 +136,6 @@
     <Content Include="Assets\Wide310x150Logo.scale-150.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
-    <Content Include="xamarin_logo.png" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -154,7 +153,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\XamTestBuild\XamTestBuild.csproj">
-      <Project>{097B7198-823F-4D23-88FA-F09371F083EA}</Project>
+      <Project>{F60E1DA6-63CE-41DA-8120-DCF44162F75E}</Project>
       <Name>XamTestBuild</Name>
     </ProjectReference>
   </ItemGroup>

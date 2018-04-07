@@ -9,21 +9,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Views\AboutPage.xaml.cs">
-      <SubType>Code</SubType>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="App.xaml.cs">
+      <DependentUpon>*.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Views\ItemDetailPage.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="Views\ItemsPage.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="Views\MainPage.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="Views\NewItemPage.xaml.cs">
-      <SubType>Code</SubType>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="MainPage.xaml.cs">
+      <DependentUpon>*.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
-
 </Project>

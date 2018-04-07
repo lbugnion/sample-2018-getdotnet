@@ -1,20 +1,20 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
-using XamTestBuild.Views;
 using Xamarin.Forms;
 
 namespace XamTestBuild
 {
 	public partial class App : Application
 	{
-
 		public App ()
 		{
 			InitializeComponent();
 
-
-            MainPage = new MainPage();
-        }
+			MainPage = new XamTestBuild.MainPage();
+		}
 
 		protected override void OnStart ()
 		{
