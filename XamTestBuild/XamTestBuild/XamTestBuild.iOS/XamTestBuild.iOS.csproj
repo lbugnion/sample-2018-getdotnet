@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{FB148639-C31A-4507-A5FE-9C9BAE18DF20}</ProjectGuid>
+    <ProjectGuid>{CCFC6B1C-64A9-403B-B37B-96BCB1C03294}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
     <RootNamespace>XamTestBuild.iOS</RootNamespace>
@@ -124,7 +124,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\XamTestBuild\XamTestBuild.csproj">
-      <Project>{E9B6686F-EAAE-43C3-AF17-20CECBF76DAF}</Project>
+      <Project>{D1F3EECA-6E50-49F2-AC0F-4A1F10A67692}</Project>
       <Name>XamTestBuild</Name>
     </ProjectReference>
   </ItemGroup>

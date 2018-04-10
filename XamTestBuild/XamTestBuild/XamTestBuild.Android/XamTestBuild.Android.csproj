@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{839B8D69-B3C3-4C26-8EAA-D68781BCCF90}</ProjectGuid>
+    <ProjectGuid>{7C867DEC-1B93-4068-97F3-DFA2A07A50BD}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <RootNamespace>XamTestBuild.Droid</RootNamespace>
@@ -82,7 +82,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\XamTestBuild\XamTestBuild.csproj">
-      <Project>{E9B6686F-EAAE-43C3-AF17-20CECBF76DAF}</Project>
+      <Project>{D1F3EECA-6E50-49F2-AC0F-4A1F10A67692}</Project>
       <Name>XamTestBuild</Name>
     </ProjectReference>
   </ItemGroup>
